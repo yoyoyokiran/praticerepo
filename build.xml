@@ -20,7 +20,6 @@
 <zip destfile="${build.classes}/artifacts.zip">
       <fileset dir="." includes="*.txt"/>
 </zip>
-</target>
-
+</target>these are changes in master
 
 </project>
