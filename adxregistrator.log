@@ -1,0 +1,20 @@
+Add-in Express Registrator Log File: 06/26/2015 17:25:28
+
+Installation directory: C:\Program Files\WinZip\
+Registrator version: 7.1.4050.1
+Operating System: Microsoft Windows 7 Ultimate Edition (build 7600), 32-bit
+Process Owner: System
+Command Line: "C:\Program Files\WinZip\adxregistrator.exe" /uninstall="WZOutlok.dll" /privileges=admin
+Run 'As Administrator': Yes
+Process Elevated: Yes
+Integrity Level: System
+UAC (User Account Control): On
+--------------------------------------------------------------
+17:25:28 0168 Starting the add-in unregistration process.
+17:25:28 0168 Loading mscoree.dll
+17:25:28 0168 Success.
+17:25:28 0168 .NET Framework installation directory: 
+17:25:28 0168 The latest version of .NET Framework: 'v4.0.30319'
+17:25:28 0168 Loading CLR: v4.0.30319.
+17:25:28 0168 The CLR v4.0.30319 has been initialized successfully.
+17:25:28 0168 The add-in unregistration process is completed with HRESULT = -2147467259.

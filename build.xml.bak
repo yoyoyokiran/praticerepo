@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- build.xml - a simple Ant buildfile -->
+<project name="Simple Buildfile" default="prepare" basedir=".">
+<!-- The directory containing source code -->
+<property name="src.dir" value="src"/>
+<!-- Temporary build directories -->
+<property name="build.dir" value="build"/>
+<property name="build.classes" value="${build.dir}/classes"/>
+<property name="build.lib" value="${build.dir}/lib"/>
+<!-- Target to create the build directories prior to the -->
+<!-- compile target. -->
+<target name="prepare">
+<mkdir dir="${build.dir}"/>
+<mkdir dir="${build.classes}"/>
+<mkdir dir="${build.lib}"/>
+</target>
+
+<target name="pack" depends="prepare">
+<zip destfile="${build.classes}/artifacts.zip"
+       basedir="."/>
+</target>
+
+
+</project>
